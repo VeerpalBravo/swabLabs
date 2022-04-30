@@ -9,11 +9,11 @@
   <parameter name="passW" value="secret_sauce"></parameter>
     <classes>
       <class name="testCases.TC001_initialSignIn"/>
-      <class name="testCases.TC03_addToCart"/>
+      <!--<class name="testCases.TC03_addToCart"/>
       <class name="testCases.TC002_SignUp"/>
      <class name="testCases.TC02_Resources"/>
       <class name="testCases.TC01_AccountLogin"/>
-       <class name="testCases.TC04_logOut"/>
+       <class name="testCases.TC04_logOut"/>-->
       
     </classes>
   </test> <!-- Test -->
