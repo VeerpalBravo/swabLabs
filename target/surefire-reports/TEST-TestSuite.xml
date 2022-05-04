@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="61.934" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="94.105" tests="6" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire856604262987339664\surefirebooter3915270195241774603.jar C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire856604262987339664 2022-04-28T13-43-00_006-jvmRun1 surefire2333436129722012531tmp surefire_08549207899123986307tmp"/>
+    <property name="sun.java.command" value="C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire9202889467752150179\surefirebooter4372785070877810646.jar C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire9202889467752150179 2022-05-04T09-58-38_093-jvmRun1 surefire3390802861726916469tmp surefire_07197427487570361941tmp"/>
     <property name="surefire.test.class.path" value="D:\CIAutomation2019\swabLabs\target\test-classes;D:\CIAutomation2019\swabLabs\target\classes;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Veerpal Kaur\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Veerpal Kaur\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Veerpal Kaur\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Veerpal Kaur\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Veerpal Kaur\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Veerpal Kaur\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Veerpal Kaur\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Veerpal Kaur\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Veerpal Kaur\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Veerpal Kaur\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Veerpal Kaur\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Veerpal Kaur\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Veerpal Kaur\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Veerpal Kaur\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Veerpal Kaur\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Veerpal Kaur\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Veerpal Kaur\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Veerpal Kaur\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Veerpal Kaur\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Veerpal Kaur\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Veerpal Kaur\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Veerpal Kaur\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Veerpal Kaur\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Veerpal Kaur\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Veerpal Kaur\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Veerpal Kaur"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire856604262987339664\surefirebooter3915270195241774603.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Veerpal Kaur\AppData\Local\Temp\surefire9202889467752150179\surefirebooter4372785070877810646.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_291/bin/server;C:/Program Files/Java/jre1.8.0_291/bin;C:/Program Files/Java/jre1.8.0_291/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\System32\OpenSSH\;D:\java softwares with servers\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Veerpal Kaur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Veerpal Kaur\Downloads\eclipse-java-2019-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_291/bin/server;C:/Program Files/Java/jre1.8.0_291/bin;C:/Program Files/Java/jre1.8.0_291/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\System32\OpenSSH\;D:\java softwares with servers\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Users\Veerpal Kaur\AppData\Local\Android\Sdk\tools;C:\Users\Veerpal Kaur\AppData\Local\Android\Sdk\tools\bin;C:\Users\Veerpal Kaur\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Veerpal Kaur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Veerpal Kaur\Downloads\eclipse-java-2019-12-R-win32-x86_64\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.291-b10"/>
@@ -61,19 +61,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="initialSignIn[standard_user, secret_sauce](1)" classname="testCases.TC001_initialSignIn" time="4.076">
-    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (qaLogger).
+  <testcase name="initialSignIn[standard_user, secret_sauce](1)" classname="testCases.TC001_initialSignIn" time="4.211">
+    <system-err><![CDATA[May 04, 2022 9:58:39 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file D:\CIAutomation2019\swabLabs\src\test\resources\extentconfig\ReportsConfig.xml was not found.
+log4j:WARN No appenders could be found for logger (qaLogger).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 2072
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 47154
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 28, 2022 1:43:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 04, 2022 9:58:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signUp" classname="testCases.TC002_SignUp" time="48.935">
+  <testcase name="addToCart" classname="testCases.TC03_addToCart" time="1.172">
+    <system-out><![CDATA[BACK HOME
+]]></system-out>
+  </testcase>
+  <testcase name="signUp" classname="testCases.TC002_SignUp" time="46.134">
     <failure message="expected [Sauce Labs | Get Started Guide] but found [Sign Up for a Free Trial | Sauce Labs]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Sauce Labs | Get Started Guide] but found [Sign Up for a Free Trial | Sauce Labs]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -81,7 +87,7 @@ INFO: Detected dialect: W3C
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:453)
 	at org.testng.Assert.assertEquals(Assert.java:463)
-	at testCases.TC002_SignUp.signUp(TC002_SignUp.java:74)
+	at testCases.TC002_SignUp.signUp(TC002_SignUp.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,8 +118,10 @@ INFO: Detected dialect: W3C
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[Screenshot has taken from ansd in screenshot methods Thu_Apr_28_13_43_58_EDT_202245.png
-Screenshot has taken from Thu_Apr_28_13_43_58_EDT_202245.png
+    <system-out><![CDATA[Sign Up for a Free Trial | Sauce Labs
 ]]></system-out>
   </testcase>
+  <testcase name="resources" classname="testCases.TC02_Resources" time="2.542"/>
+  <testcase name="accountLogin" classname="testCases.TC01_AccountLogin" time="24.133"/>
+  <testcase name="logOut" classname="testCases.TC04_logOut" time="4.569"/>
 </testsuite>

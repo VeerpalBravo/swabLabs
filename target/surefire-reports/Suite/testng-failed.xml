@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="base.CustomListeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="regression(failed)">
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <parameter name="uname" value="standard_user"/>
     <parameter name="passW" value="secret_sauce"/>
     <classes>
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- testCases.TC002_SignUp -->
     </classes>
-  </test> <!-- regression(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

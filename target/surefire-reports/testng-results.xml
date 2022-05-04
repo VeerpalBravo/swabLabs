@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="1" ignored="10" total="16" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53160" started-at="2022-04-28T17:43:06Z" finished-at="2022-04-28T17:43:59Z">
+  <suite name="Suite" duration-ms="85944" started-at="2022-05-04T13:58:42Z" finished-at="2022-05-04T14:00:08Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="53160" started-at="2022-04-28T17:43:06Z" finished-at="2022-04-28T17:43:59Z">
+    <test name="Test" duration-ms="85944" started-at="2022-05-04T13:58:42Z" finished-at="2022-05-04T14:00:08Z">
       <class name="testCases.TC001_initialSignIn">
-        <test-method status="PASS" signature="init()[pri:0, instance:testCases.TC001_initialSignIn@5f282abb]" name="init" is-config="true" duration-ms="3203" started-at="2022-04-28T17:43:03Z" finished-at="2022-04-28T17:43:06Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.TC001_initialSignIn@74650e52]" name="init" is-config="true" duration-ms="2920" started-at="2022-05-04T13:58:39Z" finished-at="2022-05-04T13:58:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initialSignIn(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_initialSignIn@5f282abb]" name="initialSignIn" duration-ms="4078" started-at="2022-04-28T17:43:06Z" finished-at="2022-04-28T17:43:10Z">
+        <test-method status="PASS" signature="initialSignIn(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_initialSignIn@74650e52]" name="initialSignIn" duration-ms="4211" started-at="2022-05-04T13:58:42Z" finished-at="2022-05-04T13:58:47Z">
           <params>
             <param index="0">
               <value>
@@ -27,17 +27,65 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSignIn -->
-        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC001_initialSignIn@5f282abb]" name="flushData" is-config="true" duration-ms="1" started-at="2022-04-28T17:43:10Z" finished-at="2022-04-28T17:43:10Z">
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC001_initialSignIn@74650e52]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-04T13:58:47Z" finished-at="2022-05-04T13:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC001_initialSignIn@5f282abb]" name="tearDown" is-config="true" duration-ms="3929" started-at="2022-04-28T17:43:59Z" finished-at="2022-04-28T17:44:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC001_initialSignIn@74650e52]" name="tearDown" is-config="true" duration-ms="4120" started-at="2022-05-04T14:00:08Z" finished-at="2022-05-04T14:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_initialSignIn -->
+      <class name="testCases.TC04_logOut">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testCases.TC04_logOut@4d41cee]" name="logOut" duration-ms="4566" started-at="2022-05-04T14:00:04Z" finished-at="2022-05-04T14:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC04_logOut@4d41cee]" name="flushData" is-config="true" duration-ms="66" started-at="2022-05-04T14:00:08Z" finished-at="2022-05-04T14:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC04_logOut -->
+      <class name="testCases.TC03_addToCart">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testCases.TC03_addToCart@15d0c81b]" name="addToCart" duration-ms="1167" started-at="2022-05-04T13:58:47Z" finished-at="2022-05-04T13:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC03_addToCart@15d0c81b]" name="flushData" is-config="true" duration-ms="105" started-at="2022-05-04T13:58:48Z" finished-at="2022-05-04T13:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC03_addToCart -->
+      <class name="testCases.TC02_Resources">
+        <test-method status="PASS" signature="navigateToUrl()[pri:0, instance:testCases.TC02_Resources@4b1c1ea0]" name="navigateToUrl" is-config="true" duration-ms="2671" started-at="2022-05-04T13:59:34Z" finished-at="2022-05-04T13:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method status="PASS" signature="resources()[pri:0, instance:testCases.TC02_Resources@4b1c1ea0]" name="resources" duration-ms="2543" started-at="2022-05-04T13:59:37Z" finished-at="2022-05-04T13:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resources -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC02_Resources@4b1c1ea0]" name="flushData" is-config="true" duration-ms="68" started-at="2022-05-04T13:59:39Z" finished-at="2022-05-04T13:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC02_Resources -->
+      <class name="testCases.TC01_AccountLogin">
+        <test-method status="PASS" signature="navigateToWindow()[pri:0, instance:testCases.TC01_AccountLogin@17579e0f]" name="navigateToWindow" is-config="true" duration-ms="102" started-at="2022-05-04T13:59:39Z" finished-at="2022-05-04T13:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWindow -->
+        <test-method status="PASS" signature="accountLogin()[pri:0, instance:testCases.TC01_AccountLogin@17579e0f]" name="accountLogin" duration-ms="24136" started-at="2022-05-04T13:59:39Z" finished-at="2022-05-04T14:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC01_AccountLogin@17579e0f]" name="flushData" is-config="true" duration-ms="60" started-at="2022-05-04T14:00:04Z" finished-at="2022-05-04T14:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC01_AccountLogin -->
       <class name="testCases.TC002_SignUp">
-        <test-method status="FAIL" signature="signUp()[pri:0, instance:testCases.TC002_SignUp@167fdd33]" name="signUp" duration-ms="47919" started-at="2022-04-28T17:43:10Z" finished-at="2022-04-28T17:43:58Z">
+        <test-method status="FAIL" signature="signUp()[pri:0, instance:testCases.TC002_SignUp@6acdbdf5]" name="signUp" duration-ms="45548" started-at="2022-05-04T13:58:48Z" finished-at="2022-05-04T13:59:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sauce Labs | Get Started Guide] but found [Sign Up for a Free Trial | Sauce Labs]]]>
@@ -50,7 +98,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at testCases.TC002_SignUp.signUp(TC002_SignUp.java:74)
+at testCases.TC002_SignUp.signUp(TC002_SignUp.java:66)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,11 +134,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC002_SignUp@167fdd33]" name="flushData" is-config="true" duration-ms="125" started-at="2022-04-28T17:43:59Z" finished-at="2022-04-28T17:43:59Z">
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC002_SignUp@6acdbdf5]" name="flushData" is-config="true" duration-ms="84" started-at="2022-05-04T13:59:34Z" finished-at="2022-05-04T13:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushData -->
       </class> <!-- testCases.TC002_SignUp -->
-    </test> <!-- regression -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
