@@ -4,6 +4,9 @@ import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
+import java.io.IOException;
+
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import base.BaseClass;
 import pageClasses.swagLabs;
@@ -35,6 +38,13 @@ public class LoginSwag extends BaseClass{
 		sl.doClickSignIn();
 		test.log(LogStatus.INFO, "Clicked on sign In button");
 		Thread.sleep(2000);
+		report.endTest(test);
+		report.flush();
+		
+	}
+	@AfterMethod
+	public void flushData() throws IOException {
+		
 		
 	}
 	

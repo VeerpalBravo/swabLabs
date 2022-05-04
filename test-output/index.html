@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\CIAutomation2019\swabLabs\src\test\resources\runners\regression.xml</span>
+                    <span>D:\CIAutomation2019\swabLabs\src\test\resources\runners\sanity.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC002_SignUp" hash-for-method="signUp">signUp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,27 +102,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC01_AccountLogin" hash-for-method="accountLogin">accountLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataDrivenTestCases.LoginSwag" hash-for-method="login(problem_user, secret_sauce)">login(problem_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC03_addToCart" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataDrivenTestCases.LoginSwag" hash-for-method="login(standard_user, secret_sauce)">login(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC001_initialSignIn" hash-for-method="initialSignIn(standard_user, secret_sauce)">initialSignIn(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC04_logOut" hash-for-method="logOut">logOut</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.TC02_Resources" hash-for-method="resources">resources</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataDrivenTestCases.LoginSwag" hash-for-method="login(locked_out_user, secret_sauce)">login(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -151,97 +127,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC002_SignUp</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUp">
-                  </a> <!-- signUp -->
-                  <span class="method-name">signUp</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Sauce Labs | Get Started Guide] but found [Sign Up for a Free Trial | Sauce Labs]
-	at testCases.TC002_SignUp.signUp(TC002_SignUp.java:66)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC02_Resources</span>
+              <span class="class-name">dataDrivenTestCases.LoginSwag</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="resources">
-                  </a> <!-- resources -->
-                  <span class="method-name">resources</span>
+                  <a name="login(problem_user, secret_sauce)">
+                  </a> <!-- login(problem_user, secret_sauce) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC01_AccountLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="accountLogin">
-                  </a> <!-- accountLogin -->
-                  <span class="method-name">accountLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC001_initialSignIn</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="initialSignIn(standard_user, secret_sauce)">
-                  </a> <!-- initialSignIn(standard_user, secret_sauce) -->
-                  <span class="method-name">initialSignIn</span>
+                  <a name="login(standard_user, secret_sauce)">
+                  </a> <!-- login(standard_user, secret_sauce) -->
+                  <span class="method-name">login</span>
                   <span class="parameters">(standard_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC04_logOut</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logOut">
-                  </a> <!-- logOut -->
-                  <span class="method-name">logOut</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC03_addToCart</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addToCart">
-                  </a> <!-- addToCart -->
-                  <span class="method-name">addToCart</span>
+                  <a name="login(locked_out_user, secret_sauce)">
+                  </a> <!-- login(locked_out_user, secret_sauce) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,7 +162,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\CIAutomation2019\swabLabs\src\test\resources\runners\regression.xml</span>
+            <span class="header-content">D:\CIAutomation2019\swabLabs\src\test\resources\runners\sanity.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -260,15 +173,8 @@
     &lt;listener class-name=&quot;base.CustomListeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;uname&quot; value=&quot;standard_user&quot;/&gt;
-    &lt;parameter name=&quot;passW&quot; value=&quot;secret_sauce&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_initialSignIn&quot;/&gt;
-      &lt;class name=&quot;testCases.TC03_addToCart&quot;/&gt;
-      &lt;class name=&quot;testCases.TC002_SignUp&quot;/&gt;
-      &lt;class name=&quot;testCases.TC02_Resources&quot;/&gt;
-      &lt;class name=&quot;testCases.TC01_AccountLogin&quot;/&gt;
-      &lt;class name=&quot;testCases.TC04_logOut&quot;/&gt;
+      &lt;class name=&quot;dataDrivenTestCases.LoginSwag&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -282,7 +188,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (6 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -308,36 +214,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signUp')
-data.setCell(0, 2, 'testCases.TC002_SignUp')
-data.setCell(0, 3, 45629);
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'dataDrivenTestCases.LoginSwag')
+data.setCell(0, 3, 5605);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'accountLogin')
-data.setCell(1, 2, 'testCases.TC01_AccountLogin')
-data.setCell(1, 3, 24212);
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'dataDrivenTestCases.LoginSwag')
+data.setCell(1, 3, 5447);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logOut')
-data.setCell(2, 2, 'testCases.TC04_logOut')
-data.setCell(2, 3, 4461);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'initialSignIn')
-data.setCell(3, 2, 'testCases.TC001_initialSignIn')
-data.setCell(3, 3, 4170);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'resources')
-data.setCell(4, 2, 'testCases.TC02_Resources')
-data.setCell(4, 3, 2017);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'addToCart')
-data.setCell(5, 2, 'testCases.TC03_addToCart')
-data.setCell(5, 3, 1278);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'dataDrivenTestCases.LoginSwag')
+data.setCell(2, 3, 5379);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -352,54 +246,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">10 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC02_Resources</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">init</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC01_AccountLogin</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">init</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC002_SignUp</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">init</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC04_logOut</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">init</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC03_addToCart</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">init</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -408,90 +257,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_initialSignIn</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">dataDrivenTestCases.LoginSwag</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="test-method">
-                <span class="method-name">initialSignIn(standard_user, secret_sauce)</span>
-                <span class="method-start">5368 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">9543 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC03_addToCart</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addToCart</span>
-                <span class="method-start">9545 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">10826 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_SignUp</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">signUp</span>
-                <span class="method-start">10954 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">57338 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC02_Resources</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToUrl</span>
-                <span class="method-start">57568 ms</span>
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">5192 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">resources</span>
-                <span class="method-start">60557 ms</span>
+                <span class="method-name">login(standard_user, secret_sauce)</span>
+                <span class="method-start">5311 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">62576 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC01_AccountLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToWindow</span>
-                <span class="method-start">62649 ms</span>
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">10922 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">accountLogin</span>
-                <span class="method-start">62789 ms</span>
+                <span class="method-name">login(locked_out_user, secret_sauce)</span>
+                <span class="method-start">11011 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">87003 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC04_logOut</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">16395 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logOut</span>
-                <span class="method-start">87032 ms</span>
+                <span class="method-name">login(problem_user, secret_sauce)</span>
+                <span class="method-start">16465 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">flushData</span>
-                <span class="method-start">91494 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_initialSignIn</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91586 ms</span>
+                <span class="method-start">22170 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
