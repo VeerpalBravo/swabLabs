@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18428" started-at="2022-05-04T17:29:21Z" finished-at="2022-05-04T17:29:40Z">
+  <suite name="Suite" duration-ms="19456" started-at="2022-05-04T17:32:24Z" finished-at="2022-05-04T17:32:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18428" started-at="2022-05-04T17:29:21Z" finished-at="2022-05-04T17:29:40Z">
+    <test name="Test" duration-ms="19456" started-at="2022-05-04T17:32:24Z" finished-at="2022-05-04T17:32:43Z">
       <class name="dataDrivenTestCases.LoginSwag">
-        <test-method status="PASS" signature="init()[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="init" is-config="true" duration-ms="3490" started-at="2022-05-04T17:29:18Z" finished-at="2022-05-04T17:29:21Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="init" is-config="true" duration-ms="2943" started-at="2022-05-04T17:32:21Z" finished-at="2022-05-04T17:32:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="launchbrowser" is-config="true" duration-ms="119" started-at="2022-05-04T17:29:23Z" finished-at="2022-05-04T17:29:23Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="121" started-at="2022-05-04T17:32:25Z" finished-at="2022-05-04T17:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="login" duration-ms="5605" started-at="2022-05-04T17:29:23Z" data-provider="credential" finished-at="2022-05-04T17:29:29Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="6309" started-at="2022-05-04T17:32:26Z" data-provider="credential" finished-at="2022-05-04T17:32:32Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="launchbrowser" is-config="true" duration-ms="89" started-at="2022-05-04T17:29:29Z" finished-at="2022-05-04T17:29:29Z">
+        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-04T17:32:32Z" finished-at="2022-05-04T17:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="108" started-at="2022-05-04T17:32:32Z" finished-at="2022-05-04T17:32:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="login" duration-ms="5379" started-at="2022-05-04T17:29:29Z" data-provider="credential" finished-at="2022-05-04T17:29:34Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="5490" started-at="2022-05-04T17:32:32Z" data-provider="credential" finished-at="2022-05-04T17:32:38Z">
           <params>
             <param index="0">
               <value>
@@ -51,11 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="launchbrowser" is-config="true" duration-ms="70" started-at="2022-05-04T17:29:34Z" finished-at="2022-05-04T17:29:34Z">
+        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-04T17:32:38Z" finished-at="2022-05-04T17:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="82" started-at="2022-05-04T17:32:38Z" finished-at="2022-05-04T17:32:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="login" duration-ms="5447" started-at="2022-05-04T17:29:34Z" data-provider="credential" finished-at="2022-05-04T17:29:40Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="5662" started-at="2022-05-04T17:32:38Z" data-provider="credential" finished-at="2022-05-04T17:32:43Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataDrivenTestCases.LoginSwag@12cdcf4]" name="tearDown" is-config="true" duration-ms="3867" started-at="2022-05-04T17:29:40Z" finished-at="2022-05-04T17:29:44Z">
+        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="1" started-at="2022-05-04T17:32:43Z" finished-at="2022-05-04T17:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="tearDown" is-config="true" duration-ms="3854" started-at="2022-05-04T17:32:43Z" finished-at="2022-05-04T17:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
