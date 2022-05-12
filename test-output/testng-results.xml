@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="8" total="13" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19456" started-at="2022-05-04T17:32:24Z" finished-at="2022-05-04T17:32:43Z">
+  <suite name="Suite" duration-ms="42233" started-at="2022-05-12T13:27:16Z" finished-at="2022-05-12T13:27:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19456" started-at="2022-05-04T17:32:24Z" finished-at="2022-05-04T17:32:43Z">
-      <class name="dataDrivenTestCases.LoginSwag">
-        <test-method status="PASS" signature="init()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="init" is-config="true" duration-ms="2943" started-at="2022-05-04T17:32:21Z" finished-at="2022-05-04T17:32:24Z">
+    <test name="Test" duration-ms="42233" started-at="2022-05-12T13:27:16Z" finished-at="2022-05-12T13:27:59Z">
+      <class name="testCases.TC001_initialSignIn">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.TC001_initialSignIn@46daef40]" name="init" is-config="true" duration-ms="4832" started-at="2022-05-12T13:27:12Z" finished-at="2022-05-12T13:27:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="121" started-at="2022-05-04T17:32:25Z" finished-at="2022-05-04T17:32:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="6309" started-at="2022-05-04T17:32:26Z" data-provider="credential" finished-at="2022-05-04T17:32:32Z">
+        <test-method status="PASS" signature="initialSignIn(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_initialSignIn@46daef40]" name="initialSignIn" duration-ms="4245" started-at="2022-05-12T13:27:16Z" finished-at="2022-05-12T13:27:21Z">
           <params>
             <param index="0">
               <value>
@@ -30,64 +26,64 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-04T17:32:32Z" finished-at="2022-05-04T17:32:32Z">
+        </test-method> <!-- initialSignIn -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC001_initialSignIn@46daef40]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-12T13:27:21Z" finished-at="2022-05-12T13:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushData -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="108" started-at="2022-05-04T17:32:32Z" finished-at="2022-05-04T17:32:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="5490" started-at="2022-05-04T17:32:32Z" data-provider="credential" finished-at="2022-05-04T17:32:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="0" started-at="2022-05-04T17:32:38Z" finished-at="2022-05-04T17:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushData -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="82" started-at="2022-05-04T17:32:38Z" finished-at="2022-05-04T17:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="login" duration-ms="5662" started-at="2022-05-04T17:32:38Z" data-provider="credential" finished-at="2022-05-04T17:32:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="flushData()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="flushData" is-config="true" duration-ms="1" started-at="2022-05-04T17:32:43Z" finished-at="2022-05-04T17:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataDrivenTestCases.LoginSwag@5bcea91b]" name="tearDown" is-config="true" duration-ms="3854" started-at="2022-05-04T17:32:43Z" finished-at="2022-05-04T17:32:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC001_initialSignIn@46daef40]" name="tearDown" is-config="true" duration-ms="4041" started-at="2022-05-12T13:27:59Z" finished-at="2022-05-12T13:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- dataDrivenTestCases.LoginSwag -->
+      </class> <!-- testCases.TC001_initialSignIn -->
+      <class name="testCases.TC04_logOut">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testCases.TC04_logOut@371a67ec]" name="logOut" duration-ms="4757" started-at="2022-05-12T13:27:54Z" finished-at="2022-05-12T13:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC04_logOut@371a67ec]" name="flushData" is-config="true" duration-ms="104" started-at="2022-05-12T13:27:59Z" finished-at="2022-05-12T13:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC04_logOut -->
+      <class name="testCases.TC03_addToCart">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testCases.TC03_addToCart@12f41634]" name="addToCart" duration-ms="1385" started-at="2022-05-12T13:27:21Z" finished-at="2022-05-12T13:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC03_addToCart@12f41634]" name="flushData" is-config="true" duration-ms="113" started-at="2022-05-12T13:27:22Z" finished-at="2022-05-12T13:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC03_addToCart -->
+      <class name="testCases.TC02_Resources">
+        <test-method status="PASS" signature="navigateToUrl()[pri:0, instance:testCases.TC02_Resources@13c27452]" name="navigateToUrl" is-config="true" duration-ms="3227" started-at="2022-05-12T13:27:22Z" finished-at="2022-05-12T13:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method status="PASS" signature="resources()[pri:0, instance:testCases.TC02_Resources@13c27452]" name="resources" duration-ms="2634" started-at="2022-05-12T13:27:25Z" finished-at="2022-05-12T13:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resources -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC02_Resources@13c27452]" name="flushData" is-config="true" duration-ms="71" started-at="2022-05-12T13:27:28Z" finished-at="2022-05-12T13:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC02_Resources -->
+      <class name="testCases.TC01_AccountLogin">
+        <test-method status="PASS" signature="navigateToWindow()[pri:0, instance:testCases.TC01_AccountLogin@262b2c86]" name="navigateToWindow" is-config="true" duration-ms="78" started-at="2022-05-12T13:27:28Z" finished-at="2022-05-12T13:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWindow -->
+        <test-method status="PASS" signature="accountLogin()[pri:0, instance:testCases.TC01_AccountLogin@262b2c86]" name="accountLogin" duration-ms="25446" started-at="2022-05-12T13:27:28Z" finished-at="2022-05-12T13:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method status="PASS" signature="flushData()[pri:0, instance:testCases.TC01_AccountLogin@262b2c86]" name="flushData" is-config="true" duration-ms="112" started-at="2022-05-12T13:27:54Z" finished-at="2022-05-12T13:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- testCases.TC01_AccountLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
